@@ -10,17 +10,7 @@
             <a href="{{ route('admin.alumni.create') }}" class="btn btn-sm btn-success">
                 <i class="fas fa-plus"></i> Tambah Alumni
             </a>
-            <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
-                <i class="fas fa-download"></i> Export
-            </button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="{{ route('admin.alumni.export', 'excel') }}">
-                    <i class="fas fa-file-excel"></i> Excel
-                </a>
-                <a class="dropdown-item" href="{{ route('admin.alumni.export', 'pdf') }}">
-                    <i class="fas fa-file-pdf"></i> PDF
-                </a>
-            </div>
+
             <button type="button" class="btn btn-sm btn-outline-secondary" onclick="printPage()">
                 <i class="fas fa-print"></i> Print
             </button>

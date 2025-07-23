@@ -7,17 +7,7 @@
     <h1 class="h2"><i class="fas fa-users"></i> Data Alumni</h1>
     <div class="btn-toolbar mb-2 mb-md-0">
         <div class="btn-group mr-2">
-            <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
-                <i class="fas fa-download"></i> Export
-            </button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="{{ route('guru.alumni.export', 'excel') }}">
-                    <i class="fas fa-file-excel"></i> Excel
-                </a>
-                <a class="dropdown-item" href="{{ route('guru.alumni.export', 'pdf') }}">
-                    <i class="fas fa-file-pdf"></i> PDF
-                </a>
-            </div>
+        
             <button type="button" class="btn btn-sm btn-outline-secondary" onclick="printPage()">
                 <i class="fas fa-print"></i> Print
             </button>

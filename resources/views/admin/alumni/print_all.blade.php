@@ -77,7 +77,7 @@
                 <div class="col-md-10 text-center">
                     <h3 class="mb-1">SMP NEGERI 15 PEKANBARU</h3>
                     <h4 class="mb-1">DAFTAR ALUMNI</h4>
-                    <p class="mb-0">Jl. Pendidikan No. 123, Pekanbaru, Riau | Telp: (0761) 123456</p>
+                    <p class="mb-0">Jl. Lembah Sari No. 123, Pekanbaru, Riau | Telp: (0761) 123456</p>
                 </div>
             </div>
         </div>

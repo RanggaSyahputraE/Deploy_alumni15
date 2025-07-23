@@ -73,7 +73,7 @@
                 <div class="col-md-8 text-center">
                     <h3 class="mb-1">SMP NEGERI 15 PEKANBARU</h3>
                     <h4 class="mb-1">SISTEM INFORMASI ALUMNI</h4>
-                    <p class="mb-0">Jl. Pendidikan No. 123, Pekanbaru, Riau | Telp: (0761) 123456</p>
+                    <p class="mb-0">Jl. Lembah Sari  No. 123, Pekanbaru, Riau | Telp: (0761) 123456</p>
                 </div>
                 <div class="col-md-2 text-center">
                     <img src="{{ $alumni->user->profile_photo_path ? asset('storage/' . $alumni->user->profile_photo_path) : asset('images/default_profile.png') }}" 
